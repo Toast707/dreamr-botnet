@@ -26,4 +26,4 @@ In order to retrive logs from a host or range of hosts a command can be issued, 
 Have a look at the source code: https://github.com/YinAndYangSecurityAwareness/dreamr-botnet/tree/master/drmctchr
 
 ## How do I test?
-In an airgapped environment. Dreamr detects your VM and self-destructs.
+In an airgapped environment. Be aware that Dreamr detects your VM and self-destructs or copies itself to the host through any detected VM shares.
